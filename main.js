@@ -1,5 +1,5 @@
-function numberCheck (number) {
-    number = +prompt("Enter your Number:");
+function numberCheck () {
+    let number = +prompt("Enter your number:");
     function isEven (number) {
         if (number % 2 === 0) {
             return "even";
